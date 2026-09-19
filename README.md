@@ -102,6 +102,7 @@ flowchart TD
     B --> C
     C --> D
     D --> E
+```
 
 ## Tech Stack (Reference)
 Backend: Node.js / Java Spring Boot / .NET Core
