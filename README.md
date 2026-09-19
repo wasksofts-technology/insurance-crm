@@ -5,7 +5,15 @@ The Insurance ERP System is a comprehensive, multi-tenant enterprise platform de
 
 Whether you're managing a nationwide aggregator network, running a brokerage firm, or supporting thousands of individual agents, this ERP adapts to your business model.
 
-## Core Modules
+##  Key Stakeholders & Capabilities
+### 1. Aggregators
+Platforms that aggregate multiple insurers' products and distribute them through partners or direct channels.
+
+### 2. Brokers
+
+### 3. Agents
+
+## 🏗️ Core Modules
 
 | Module | Description |
 | --------- | ------------|
@@ -21,6 +29,8 @@ Whether you're managing a nationwide aggregator network, running a brokerage fir
 | User & Role Management  | 	Granular RBAC, multi-tenant architecture |
 | Notifications	 | Email, SMS, WhatsApp, push notifications |
 | Integrations	 | Insurer APIs, payment gateways, e-sign, KYC providers |
+
+
 
 ### Application offers a digital solution that allows brokers and agents to:
     Purchase Policy Products Digitally: Facilitates the buying of insurance policies from multiple companies through a web platform and mobile app.
