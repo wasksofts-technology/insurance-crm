@@ -8,11 +8,69 @@ Whether you're managing a nationwide aggregator network, running a brokerage fir
 ##  Key Stakeholders & Capabilities
 ### 1. Aggregators
 Platforms that aggregate multiple insurers' products and distribute them through partners or direct channels.
+Features:
+
+    Multi-insurer product catalog management
+
+    Real-time quote comparison engine
+
+    API integration with insurer systems (REST/SOAP)
+
+    Lead distribution & routing engine
+
+    Partner (broker/agent) onboarding & KYC
+
+    Revenue sharing & commission split engine
+
+    Bulk policy issuance
+
+    Web & mobile customer portals
+
+    Analytics on conversion, funnel, and insurer performance
 
 ### 2. Brokers
+Intermediaries offering advisory services and managing corporate/retail client portfolios.
+Features:
 
+    Client & corporate account management
+
+    Policy lifecycle management (quote → issue → renew → endorse → cancel)
+
+    Multi-insurer placement & comparison
+
+    Commission tracking & reconciliation
+
+    Claims registration and follow-up
+
+    Document management (KYC, proposals, endorsements)
+
+    Custom reporting for clients & insurers
+
+    Brokerage accounting (receivables/payables)
+
+    Regulatory compliance dashboards
+    
 ### 3. Agents
+Individual or agency-level sellers operating under an insurer, broker, or aggregator.
 
+Features:
+
+    Lead & prospect management (mini-CRM)
+
+    Quote generation & policy issuance
+
+    Commission statements & payout tracking
+
+    Target vs. achievement dashboards
+
+    Training & certification tracking
+
+    Mobile-first agent app
+
+    Customer servicing & renewal reminders
+
+    Incentive & gamification modules
+    
 ## 🏗️ Core Modules
 
 | Module | Description |
@@ -29,8 +87,6 @@ Platforms that aggregate multiple insurers' products and distribute them through
 | User & Role Management  | 	Granular RBAC, multi-tenant architecture |
 | Notifications	 | Email, SMS, WhatsApp, push notifications |
 | Integrations	 | Insurer APIs, payment gateways, e-sign, KYC providers |
-
-
 
 ### Application offers a digital solution that allows brokers and agents to:
     Purchase Policy Products Digitally: Facilitates the buying of insurance policies from multiple companies through a web platform and mobile app.
