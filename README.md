@@ -89,31 +89,17 @@ Features:
 | Integrations	 | Insurer APIs, payment gateways, e-sign, KYC providers |
 
 ## 🧩 Architecture
-┌────────────────────────────────────────────────────────────┐
-│                     Client Layer                           │
-│   Web Portal | Agent App | Broker Portal | Admin Console   │
-└────────────────────────────────────────────────────────────┘
-                            │
-                            ▼
-┌────────────────────────────────────────────────────────────┐
-│                   API Gateway / BFF                        │
-└────────────────────────────────────────────────────────────┘
-                            │
-                            ▼
-┌────────────────────────────────────────────────────────────┐
-│                   Microservices Layer                      │
-│  Policy | Quote | Commission | Claims | CRM | Billing      │
-└────────────────────────────────────────────────────────────┘
-                            │
-                            ▼
-┌────────────────────────────────────────────────────────────┐
-│         Data Layer | Message Queue | Cache | Storage       │
-└────────────────────────────────────────────────────────────┘
-                            │
-                            ▼
-┌────────────────────────────────────────────────────────────┐
-│       External Integrations (Insurers, Payments, KYC)      │
-└────────────────────────────────────────────────────────────┘
+flowchart TD
+    A["🖥️ Client Layer<br/>Web Portal | Agent App | Broker Portal | Admin Console"]
+    B["🚪 API Gateway / BFF"]
+    C["⚙️ Microservices Layer<br/>Policy | Quote | Commission | Claims | CRM | Billing"]
+    D["💾 Data Layer | Message Queue | Cache | Storage"]
+    E["🔌 External Integrations<br/>Insurers | Payments | KYC"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 
 ## Tech Stack (Reference)
 Backend: Node.js / Java Spring Boot / .NET Core
