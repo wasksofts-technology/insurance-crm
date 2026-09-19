@@ -89,6 +89,7 @@ Features:
 | Integrations	 | Insurer APIs, payment gateways, e-sign, KYC providers |
 
 ## 🧩 Architecture
+
 flowchart TD
     A["🖥️ Client Layer<br/>Web Portal | Agent App | Broker Portal | Admin Console"]
     B["🚪 API Gateway / BFF"]
