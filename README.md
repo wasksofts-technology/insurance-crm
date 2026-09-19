@@ -1,5 +1,5 @@
-# Insurance CRM
-An Insurance Customer Relationship Management (CRM) system tailored for brokers and agents in Kenya streamlines the process of selling policies to clients by digitizing operations and enhancing efficiency. Such platforms enable agents to manage client interactions, policy renewals, and sales processes from a centralized interface.
+# Insurance ERP
+An Insurance Management system  tailored for aggregator ,brokers and agents in Kenya streamlines the process of selling policies to clients by digitizing operations and enhancing efficiency. Such platforms enable agents to manage client interactions, policy renewals, and sales processes from a centralized interface.
 
 ### Application offers a digital solution that allows brokers and agents to:
     Purchase Policy Products Digitally: Facilitates the buying of insurance policies from multiple companies through a web platform and mobile app.
