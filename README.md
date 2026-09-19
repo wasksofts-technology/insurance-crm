@@ -88,6 +88,30 @@ Features:
 | Notifications	 | Email, SMS, WhatsApp, push notifications |
 | Integrations	 | Insurer APIs, payment gateways, e-sign, KYC providers |
 
+## 🧩 Architecture
+┌────────────────────────────────────────────────────────────┐
+│                     Client Layer                           │
+│   Web Portal | Agent App | Broker Portal | Admin Console   │
+└────────────────────────────────────────────────────────────┘
+                            │
+┌────────────────────────────────────────────────────────────┐
+│                   API Gateway / BFF                        │
+└────────────────────────────────────────────────────────────┘
+                            │
+┌────────────────────────────────────────────────────────────┐
+│                   Microservices Layer                      │
+│  Policy | Quote | Commission | Claims | CRM | Billing      │
+└────────────────────────────────────────────────────────────┘
+                            │
+┌────────────────────────────────────────────────────────────┐
+│         Data Layer | Message Queue | Cache | Storage       │
+└────────────────────────────────────────────────────────────┘
+                            │
+┌────────────────────────────────────────────────────────────┐
+│       External Integrations (Insurers, Payments, KYC)      │
+└────────────────────────────────────────────────────────────┘
+
+
 ## Tech Stack (Reference)
 Backend: Node.js / Java Spring Boot / .NET Core
 
