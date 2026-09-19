@@ -1,5 +1,26 @@
 # Insurance ERP
-An Insurance Management system  tailored for aggregator ,brokers and agents in Kenya streamlines the process of selling policies to clients by digitizing operations and enhancing efficiency. Such platforms enable agents to manage client interactions, policy renewals, and sales processes from a centralized interface.
+## A Unified Enterprise Resource Planning Platform for Aggregators, Brokers, and Agents
+
+The Insurance ERP System is a comprehensive, multi-tenant enterprise platform designed to streamline insurance distribution operations across the entire value chain — from Aggregators and Brokers to Agents. It centralizes policy management, commissions, claims, compliance, customer relationships, and reporting into a single scalable solution.
+
+Whether you're managing a nationwide aggregator network, running a brokerage firm, or supporting thousands of individual agents, this ERP adapts to your business model.
+
+## Core Modules
+
+| Module | Description |
+| --------- | ------------|
+| Policy Management | End-to-end policy lifecycle across lines of business (Life, Health, Motor, Property, Marine, etc.) |
+| Quotation Engine | Multi-insurer, multi-product quoting with rule-based pricing |
+| Commission  |  Engine	Configurable commission rules, hierarchies, splits, and payouts |
+| Claims Management  | 	Intimation, documentation, tracking, and settlement coordination |
+| CRM	 | Leads, customers, interactions, renewals, cross-sell/up-sell |
+| Billing & Accounting | Invoicing, receivables, payables, GST/tax handling, ledger |
+| Document Management  | KYC, policy documents, endorsements, digital signatures |
+| Compliance & Audit  |	Regulatory reporting (IRDAI, etc.), audit trails, AML checks |
+| Reporting & Analytics	 | Dashboards, MIS, insurer-wise, agent-wise, region-wise reports |
+| User & Role Management  | 	Granular RBAC, multi-tenant architecture |
+| Notifications	 | Email, SMS, WhatsApp, push notifications |
+| Integrations	 | Insurer APIs, payment gateways, e-sign, KYC providers |
 
 ### Application offers a digital solution that allows brokers and agents to:
     Purchase Policy Products Digitally: Facilitates the buying of insurance policies from multiple companies through a web platform and mobile app.
