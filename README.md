@@ -90,6 +90,7 @@ Features:
 
 ## 🧩 Architecture
 
+```mermaid
 flowchart TD
     A["🖥️ Client Layer<br/>Web Portal | Agent App | Broker Portal | Admin Console"]
     B["🚪 API Gateway / BFF"]
